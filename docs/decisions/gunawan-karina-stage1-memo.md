@@ -1,48 +1,56 @@
-Accounting Ratio Analysis – Microsoft Corporation (MSFT)
-Created by: Karina
-Updated by: Karina
-Date Created: March 29, 2026
-Date Updated: March 29, 2026
-Version: 1.0
-LLM Used: Claude (Anthropic)
+# Accounting Ratio Analysis – Microsoft Corporation (MSFT)
 
-Executive Summary
-This memo proposes a comprehensive accounting ratio analysis of Microsoft Corporation (NASDAQ: MSFT), a global technology leader operating across cloud computing, enterprise software, and personal computing. The objective is to evaluate Microsoft's financial health across six ratio categories — Performance, Profitability, Efficiency, Leverage, Liquidity, and Du Pont — using audited data from its FY2022–FY2024 annual filings. Raw financial statements reveal what occurred; ratio analysis reveals what it means. This project will produce an Excel-based ratio model, a supporting technical specification, and a final strategic memo with recommendations — giving leadership a clear, evidence-based picture of where Microsoft stands and where risks or opportunities may exist.
+**Created by:** Karina
+**Updated by:** Karina
+**Date Created:** March 29, 2026
+**Date Updated:** March 29, 2026
+**Version:** 1.0
+**LLM Used:** Claude (Anthropic)
 
-Company Background & Objectives
-Company: Microsoft Corporation (NASDAQ: MSFT)
-Industry: Technology — Cloud Services, Enterprise Software, Devices
-Fiscal Year Under Review: FY2022, FY2023, FY2024 (Microsoft's fiscal year ends June 30)
-Microsoft designs and sells software, cloud infrastructure (Azure), productivity tools (Microsoft 365), gaming (Xbox), and hardware. It is one of the largest companies by market capitalization globally and generates revenue from both consumer and enterprise segments.
-A ratio analysis is valuable here because Microsoft has undergone significant strategic shifts in recent years — most notably its $69 billion acquisition of Activision Blizzard and its deepening investment in AI infrastructure. These moves affect leverage, efficiency, and profitability in ways that are not immediately visible from headline revenue or net income figures alone. This analysis will inform assessments of whether Microsoft's capital allocation is sustainable and whether its returns to shareholders are being driven by genuine operational strength or financial engineering.
+---
 
-Approach
-Data Sources:
+## Executive Summary
 
-SEC EDGAR — Microsoft 10-K filings for FY2022, FY2023, and FY2024
-Microsoft Investor Relations (investor.microsoft.com) — earnings releases and segment data
-Macrotrends / Yahoo Finance — cross-validation and peer benchmarking reference
+This memo proposes a comprehensive accounting ratio analysis of Microsoft Corporation (NASDAQ: MSFT), a global technology leader in cloud computing, enterprise software, and devices. The objective is to evaluate Microsoft's financial health across six ratio categories using audited data from FY2022–FY2024. By moving beyond raw financial statements, this analysis will surface meaningful insights about performance trends, operational efficiency, and financial risk — and will culminate in a strategic recommendation for leadership.
 
-Ratio Categories:
-CategoryWhat It MeasuresPerformanceRevenue growth and operating output trends over timeProfitabilityAbility to convert revenue into gross, operating, and net profitEfficiencyHow productively assets, receivables, and capital are deployed to generate salesLeverageDegree of debt financing and capacity to service obligationsLiquidityAbility to meet short-term liabilities with available liquid assetsDu PontDecomposition of Return on Equity into margin, turnover, and leverage drivers
-All ratios will be calculated from audited income statement, balance sheet, and cash flow statement figures. Results will be structured in a multi-tab Excel workbook with clearly labeled inputs and computed outputs.
+---
 
-Limitations & Next Steps
-Known Constraints:
+## Company Background & Objectives
 
-Microsoft's fiscal year ends June 30, which may create minor misalignment when benchmarking against calendar-year peers.
-Segment-level ratio analysis is limited by the consolidation of financials in the 10-K; some efficiency ratios will reflect enterprise-wide averages rather than segment-specific performance.
-The Activision acquisition (closed October 2023) creates a structural break in FY2024 data that must be noted when interpreting year-over-year comparisons.
+Microsoft Corporation designs and sells software, cloud infrastructure (Azure), productivity tools (Microsoft 365), gaming platforms (Xbox), and hardware devices. It operates across three segments — Intelligent Cloud, Productivity & Business Processes, and More Personal Computing — and ranks among the largest companies by market capitalization in the world.
 
-Next Steps:
+Ratio analysis is especially valuable for Microsoft right now. The company has made significant strategic bets in recent years, including its $69 billion acquisition of Activision Blizzard and substantial investment in AI infrastructure through its partnership with OpenAI. These decisions affect leverage, profitability, and capital efficiency in ways that headline revenue and net income numbers do not fully capture. This analysis will help determine whether Microsoft's financial returns are driven by genuine operational strength or are being masked by balance sheet risk.
 
-Stage 2 — Excel Model: Build a working ratio model populated with three fiscal years of real Microsoft financial data, computing all ratios across the six categories above.
-Stage 3 — Technical Specification: Document the model's structure, formula logic, cell references, data sources, and key lessons learned during construction.
-Stage 4 — Final Analysis Memo: Deliver a strategic interpretation of ratio outputs, including recommendations for management and a structured AI prompt used to support the analysis.
+---
 
+## Approach
 
-References
-Microsoft Corporation. (2024). Annual Report (Form 10-K) for the fiscal year ended June 30, 2024. U.S. Securities and Exchange Commission. https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=MSFT&type=10-K
-Microsoft Corporation. (2023). Annual Report (Form 10-K) for the fiscal year ended June 30, 2023. U.S. Securities and Exchange Commission. https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=MSFT&type=10-K
-Microsoft Corporation. (2022). Annual Report (Form 10-K) for the fiscal year ended June 30, 2022. U.S. Securities and Exchange Commission. https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=MSFT&type=10-K
-Microsoft Investor Relations. (2026). Financial information and earnings releases. https://investor.microsoft.com
+Data will be sourced from SEC EDGAR 10-K filings for FY2022, FY2023, and FY2024, and cross-validated using Microsoft's Investor Relations page (investor.microsoft.com). Six ratio categories will be analyzed:
+
+| Category | What It Measures |
+|---|---|
+| **Performance** | Revenue growth and operating output trends over time |
+| **Profitability** | Conversion of revenue into gross, operating, and net profit |
+| **Efficiency** | How effectively assets and receivables are used to generate sales |
+| **Leverage** | Debt load relative to equity and ability to service obligations |
+| **Liquidity** | Capacity to meet short-term liabilities with available assets |
+| **Du Pont** | Decomposition of Return on Equity into margin, turnover, and leverage drivers |
+
+---
+
+## Limitations & Next Steps
+
+Microsoft's June 30 fiscal year end may cause minor misalignment when benchmarking against calendar-year peers. Additionally, the Activision acquisition closed in October 2023, creating a structural break in FY2024 data that will be flagged throughout the model.
+
+Upcoming stages include:
+- **Stage 2:** Excel model computing all ratios from real financial data
+- **Stage 3:** Technical specification documenting model structure, formulas, and lessons learned
+- **Stage 4:** Final analysis memo with strategic interpretation, recommendations, and a structured AI prompt
+
+---
+
+## References
+
+Microsoft Corporation. (2022–2024). *Form 10-K Annual Reports.* SEC EDGAR. https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=MSFT&type=10-K
+
+Microsoft Investor Relations. (2026). *Financial information and earnings releases.* https://investor.microsoft.com
