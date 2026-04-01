@@ -5,7 +5,7 @@
 **Date Created:** March 29, 2026
 **Date Updated:** March 29, 2026
 **Version:** 1.0
-**LLM Used:** Claude Sonnet 4.6
+**LLM Used:** Claude (Anthropic)
 
 ---
 
